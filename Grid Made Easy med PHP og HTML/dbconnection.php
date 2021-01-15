@@ -13,6 +13,8 @@
    // $curdate = (date("F d, y h:i:s", $currentdate));
     $sql = "SELECT * FROM artikler ORDER BY id desc";
     $result = $conn->query($sql);
+
+    $conn->close();
 ?>
 
 
